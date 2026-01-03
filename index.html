@@ -4,23 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Portfolio</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css" class="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-	<div class="nav-bar">
-		<div id="logo">
-			<a href="index.html">Bodda <span id="logo2">Waleed</span></a>
-		</div>
-		<div id="nav-links">
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-</body>
+
+    <header>
+        <a href="index.html" class="logo">Bodda<span>Waleed</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Bodda Waleed</h1>
+            <h2>Front-End Developer</h2>
+            <p>I am a CS student at  Culture &amp; Science City with a strong passion for software development</p>
+            
+            <a href="#projects" class="btn">My Projects</a>
+        </div>
+        <div class="hero-img">
+            <div class="img-box">
+                <img src="imgs/bodda.jpg" alt="Bodda Waleed">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>
+                I am a second-year student at the <strong>Higher Institute for Computer Science &amp; Information Systems</strong>. My journey started when I realized how much I enjoy seeing lines of code come to life on the screen. That’s why I decided to specialize in Front-End Development. I love the process of turning designs into responsive and interactive websites.</p>
+            
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Languages</h3>
+                <p>Java</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Dev</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Data &amp; Tools</h3>
+                <p>Git, GitHub</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-users"></i>
+                <h3>Soft Skills</h3>
+                <p>Problem Solving, Teamwork</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+
+            
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Login Page</h3>
+                    <p>Designed and developed a fully functional user authentication interface || Built a clean structure using HTML5 || Styled using CSS3 for a responsive layout || Implemented input validation using JavaScript.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://bodda5501.github.io/Login_Page/" target="_blank" class="btn-small">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+
+                <div class="info-box">
+                    <div class="item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>01118065501</span>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-envelope"></i>
+                        <span>body.waleed321@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="mailto:body.waleed321@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/201118065501" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://t.me/bodda_501" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/bodda5501" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Let's Work Together!</p>
+        <p>Developed by Bodda Waleed © 2025</p>
+    </footer>
 </html>
